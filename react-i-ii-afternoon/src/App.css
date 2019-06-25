@@ -1,0 +1,166 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#header {
+  height: 10vh;
+  width: 100vw;
+  background: rgb(60, 175, 221);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+nav {
+  font-weight: bold;
+  margin-left: 5vh;
+  font-size: 25px;
+}
+
+.top-gray-box {
+  background: rgb(39, 37, 37);
+  height: 10vh;
+}
+
+#main {
+  background: rgb(39, 37, 37);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#white-box {
+  height: 60vh;
+  width: 75vw;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  align-items: left;
+  justify-content: center;
+  padding-left: 100px;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.current-user {
+  background: white;
+  font-weight: bold;
+  font-size: 50px;
+  height: 5vh;
+  width: 10px;
+  margin-left: 1250px;
+  margin-top: 10px;
+}
+
+#buttons {
+  height: 5vh;
+  width: 100vw;
+  background: rgb(39, 37, 37);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.bottom {
+  background: rgb(39, 37, 37);
+  width: 100vw;
+  height: 15vh;
+}
+
+#this-is-getting-out-of-hand {
+  display: flex;
+justify-content: space-between;
+}
+
+.gray-strip {
+background: rgb(39, 37, 37);
+width: 181px;
+}
+
+#gray-strip-left {
+  padding-left: 1px
+}
+
+.user-name {
+  text-decoration: underline;
+  text-decoration-color: rgb(60, 175, 221);
+}
+
+.favorite-movies {
+  margin-top: 50px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+ol {
+  margin-left: 50px;
+  list-style-type: decimal;
+  font-weight: normal;
+  margin-bottom: 100px;
+}
+
+.bold-this {
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.previous {
+  background:  rgb(39, 37, 37);
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 180px;
+}
+
+.next {
+  background:  rgb(39, 37, 37);
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 200px;
+}
+
+#middle-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.edit {
+  background: rgb(60, 175, 221); 
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 25px;
+  width: 90px;
+  height: 40px;
+}
+
+.delete {
+  background: rgb(60, 175, 221); 
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 25px;
+  width: 100px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.new {
+  background: rgb(60, 175, 221); 
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 25px;
+  width: 90px;
+  height: 40px;
+}
